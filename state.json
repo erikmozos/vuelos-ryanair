@@ -126,9 +126,9 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-16T18:05:00+02:00",
-   "revised": "2026-10-16T20:10:00+02:00",
+   "revised": "2026-10-16T21:31:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "GateClosed",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "06",
@@ -143,13 +143,15 @@
    "place": "Bergamo",
    "place_iata": "BGY",
    "sched": "2026-10-16T21:20:00+02:00",
-   "revised": "2026-10-16T21:20:00+02:00",
+   "revised": "2026-10-16T23:20:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737 MAX 8",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "03",
+   "posted": [
+    "delay"
+   ]
   },
   "dep-FR7402-202610162300": {
    "key": "dep-FR7402-202610162300",
@@ -158,12 +160,12 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-16T23:00:00+02:00",
-   "revised": "2026-10-16T23:05:00+02:00",
+   "revised": "2026-10-16T23:11:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
+   "gate": "02",
    "posted": []
   },
   "dep-FR4295-202610162330": {
@@ -205,14 +207,15 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-16T17:30:00+02:00",
-   "revised": "2026-10-16T19:30:00+02:00",
+   "revised": "2026-10-16T20:51:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-DYC",
    "gate": "",
    "posted": [
-    "delay"
+    "delay",
+    "arr"
    ]
   },
   "arr-FR1176-202610162045": {
@@ -222,13 +225,15 @@
    "place": "Bergamo",
    "place_iata": "BGY",
    "sched": "2026-10-16T20:45:00+02:00",
-   "revised": "2026-10-16T20:37:00+02:00",
+   "revised": "2026-10-16T22:51:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737 MAX 8",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "delay"
+   ]
   },
   "arr-FR7401-202610162225": {
    "key": "arr-FR7401-202610162225",
@@ -263,6 +268,6 @@
  },
  "date": "2026-10-16",
  "board_posted": true,
- "last_call": "2026-10-16T18:22:08.076600+02:00",
- "api_calls_total": 3
+ "last_call": "2026-10-16T21:36:56.358110+02:00",
+ "api_calls_total": 4
 }
