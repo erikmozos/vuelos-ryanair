@@ -1,0 +1,35 @@
+name: Vuelos Ryanair Menorca
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # cada 5 min (GitHub a veces lo retrasa un poco)
+  workflow_dispatch:         # botón "Run workflow" para lanzarlo a mano
+
+permissions:
+  contents: write            # para guardar state.json en el repo
+
+concurrency:
+  group: vuelos
+  cancel-in-progress: false
+
+jobs:
+  vuelos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Comprobar vuelos y avisar en Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          AERODATABOX_KEY: ${{ secrets.AERODATABOX_KEY }}
+        run: python3 vuelos-ryanair.py
+
+      - name: Guardar estado
+        if: always()
+        run: |
+          [ -f state.json ] || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || (git commit -m "estado vuelos [skip ci]" && git push)
