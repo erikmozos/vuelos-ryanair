@@ -1,107 +1,5 @@
 {
  "flights": {
-  "dep-FR7443-202610160745": {
-   "key": "dep-FR7443-202610160745",
-   "kind": "dep",
-   "number": "FR7443",
-   "place": "Marseille",
-   "place_iata": "MRS",
-   "sched": "2026-10-16T07:45:00+02:00",
-   "revised": "2026-10-16T07:37:00+02:00",
-   "runway": null,
-   "status": "Departed",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "EI-DWS",
-   "gate": "02",
-   "posted": [
-    "dep"
-   ]
-  },
-  "dep-FR6882-202610160820": {
-   "key": "dep-FR6882-202610160820",
-   "kind": "dep",
-   "number": "FR6882",
-   "place": "Barcelona",
-   "place_iata": "BCN",
-   "sched": "2026-10-16T08:20:00+02:00",
-   "revised": "2026-10-16T08:11:00+02:00",
-   "runway": "2026-10-16T08:27:00+02:00",
-   "status": "Departed",
-   "model": "Boeing 737-800",
-   "reg": "9H-QEK",
-   "gate": "06",
-   "posted": [
-    "dep"
-   ]
-  },
-  "dep-FR3057-202610160925": {
-   "key": "dep-FR3057-202610160925",
-   "kind": "dep",
-   "number": "FR3057",
-   "place": "Madrid",
-   "place_iata": "MAD",
-   "sched": "2026-10-16T09:25:00+02:00",
-   "revised": "2026-10-16T09:31:00+02:00",
-   "runway": "2026-10-16T09:43:00+02:00",
-   "status": "Departed",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "9H-QFJ",
-   "gate": "02",
-   "posted": [
-    "dep"
-   ]
-  },
-  "arr-FR7442-202610160710": {
-   "key": "arr-FR7442-202610160710",
-   "kind": "arr",
-   "number": "FR7442",
-   "place": "Marseille",
-   "place_iata": "MRS",
-   "sched": "2026-10-16T07:10:00+02:00",
-   "revised": "2026-10-16T07:03:00+02:00",
-   "runway": "2026-10-16T06:58:00+02:00",
-   "status": "Arrived",
-   "model": "Boeing 737-800",
-   "reg": "EI-DWS",
-   "gate": "",
-   "posted": [
-    "arr"
-   ]
-  },
-  "arr-FR6881-202610160735": {
-   "key": "arr-FR6881-202610160735",
-   "kind": "arr",
-   "number": "FR6881",
-   "place": "Barcelona",
-   "place_iata": "BCN",
-   "sched": "2026-10-16T07:35:00+02:00",
-   "revised": "2026-10-16T07:19:00+02:00",
-   "runway": null,
-   "status": "Arrived",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "9H-QAT",
-   "gate": "",
-   "posted": [
-    "arr"
-   ]
-  },
-  "arr-FR3056-202610160850": {
-   "key": "arr-FR3056-202610160850",
-   "kind": "arr",
-   "number": "FR3056",
-   "place": "Madrid",
-   "place_iata": "MAD",
-   "sched": "2026-10-16T08:50:00+02:00",
-   "revised": "2026-10-16T08:45:00+02:00",
-   "runway": "2026-10-16T08:39:00+02:00",
-   "status": "Arrived",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "9H-QFJ",
-   "gate": "",
-   "posted": [
-    "arr"
-   ]
-  },
   "dep-FR4709-202610161445": {
    "key": "dep-FR4709-202610161445",
    "kind": "dep",
@@ -127,13 +25,14 @@
    "place_iata": "BCN",
    "sched": "2026-10-16T18:05:00+02:00",
    "revised": "2026-10-16T21:31:00+02:00",
-   "runway": null,
-   "status": "GateClosed",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "runway": "2026-10-16T21:41:00+02:00",
+   "status": "Departed",
+   "model": "Boeing 737-800",
+   "reg": "EI-DYC",
    "gate": "06",
    "posted": [
-    "delay"
+    "delay",
+    "dep"
    ]
   },
   "dep-FR1177-202610162120": {
@@ -143,12 +42,12 @@
    "place": "Bergamo",
    "place_iata": "BGY",
    "sched": "2026-10-16T21:20:00+02:00",
-   "revised": "2026-10-16T23:20:00+02:00",
+   "revised": "2026-10-17T00:30:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737 MAX 8",
    "reg": "",
-   "gate": "03",
+   "gate": "03,04",
    "posted": [
     "delay"
    ]
@@ -160,13 +59,15 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-16T23:00:00+02:00",
-   "revised": "2026-10-16T23:11:00+02:00",
-   "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "revised": "2026-10-16T22:59:00+02:00",
+   "runway": "2026-10-16T23:09:00+02:00",
+   "status": "Departed",
+   "model": "Boeing 737-800",
+   "reg": "EI-EGB",
    "gate": "02",
-   "posted": []
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR4295-202610162330": {
    "key": "dep-FR4295-202610162330",
@@ -175,13 +76,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-16T23:30:00+02:00",
-   "revised": "2026-10-16T23:35:00+02:00",
-   "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "",
-   "posted": []
+   "revised": "2026-10-16T23:20:00+02:00",
+   "runway": "2026-10-16T23:29:00+02:00",
+   "status": "Departed",
+   "model": "Boeing 737-800",
+   "reg": "EI-ENW",
+   "gate": "12",
+   "posted": [
+    "dep"
+   ]
   },
   "arr-FR4708-202610161400": {
    "key": "arr-FR4708-202610161400",
@@ -225,11 +128,11 @@
    "place": "Bergamo",
    "place_iata": "BGY",
    "sched": "2026-10-16T20:45:00+02:00",
-   "revised": "2026-10-16T22:51:00+02:00",
+   "revised": "2026-10-16T23:45:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Delayed",
    "model": "Boeing 737 MAX 8",
-   "reg": "",
+   "reg": "EI-IHY",
    "gate": "",
    "posted": [
     "delay"
@@ -242,13 +145,15 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-16T22:25:00+02:00",
-   "revised": "2026-10-16T22:11:00+02:00",
+   "revised": "2026-10-16T22:29:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-EGB",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR4294-202610162255": {
    "key": "arr-FR4294-202610162255",
@@ -257,17 +162,19 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-16T22:55:00+02:00",
-   "revised": "2026-10-16T22:39:00+02:00",
+   "revised": "2026-10-16T22:44:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-ENW",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   }
  },
- "date": "2026-10-16",
- "board_posted": true,
- "last_call": "2026-10-16T21:36:56.358110+02:00",
- "api_calls_total": 4
+ "date": "2026-10-17",
+ "board_posted": false,
+ "last_call": "2026-10-17T00:11:35.950705+02:00",
+ "api_calls_total": 5
 }
