@@ -42,14 +42,15 @@
    "place": "Bergamo",
    "place_iata": "BGY",
    "sched": "2026-10-16T21:20:00+02:00",
-   "revised": "2026-10-17T00:30:00+02:00",
-   "runway": null,
-   "status": "Expected",
+   "revised": "2026-10-17T00:28:00+02:00",
+   "runway": "2026-10-17T00:39:00+02:00",
+   "status": "Departed",
    "model": "Boeing 737 MAX 8",
-   "reg": "",
+   "reg": "EI-IHY",
    "gate": "03,04",
    "posted": [
-    "delay"
+    "delay",
+    "dep"
    ]
   },
   "dep-FR7402-202610162300": {
@@ -128,14 +129,15 @@
    "place": "Bergamo",
    "place_iata": "BGY",
    "sched": "2026-10-16T20:45:00+02:00",
-   "revised": "2026-10-16T23:45:00+02:00",
+   "revised": "2026-10-16T23:46:00+02:00",
    "runway": null,
-   "status": "Delayed",
+   "status": "Arrived",
    "model": "Boeing 737 MAX 8",
    "reg": "EI-IHY",
    "gate": "",
    "posted": [
-    "delay"
+    "delay",
+    "arr"
    ]
   },
   "arr-FR7401-202610162225": {
@@ -175,6 +177,6 @@
  },
  "date": "2026-10-17",
  "board_posted": false,
- "last_call": "2026-10-17T00:11:35.950705+02:00",
- "api_calls_total": 5
+ "last_call": "2026-10-17T02:29:46.137734+02:00",
+ "api_calls_total": 6
 }
