@@ -255,7 +255,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "dep-FR3057-202610171210": {
    "key": "dep-FR3057-202610171210",
@@ -270,7 +272,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "dep-FR3059-202610171910": {
    "key": "dep-FR3059-202610171910",
