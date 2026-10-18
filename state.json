@@ -288,7 +288,7 @@
    "runway": null,
    "status": "Departed",
    "model": "Boeing 737 MAX 8",
-   "reg": "",
+   "reg": "EI-IKC",
    "gate": "12",
    "posted": [
     "dep"
@@ -301,13 +301,15 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-18T18:00:00+02:00",
-   "revised": "2026-10-18T18:00:00+02:00",
+   "revised": "2026-10-18T18:33:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Boarding",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "02",
+   "posted": [
+    "delay"
+   ]
   },
   "dep-FR2076-202610182225": {
    "key": "dep-FR2076-202610182225",
@@ -348,13 +350,15 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-18T17:25:00+02:00",
-   "revised": "2026-10-18T17:25:00+02:00",
-   "runway": null,
-   "status": "Expected",
+   "revised": "2026-10-18T17:53:00+02:00",
+   "runway": "2026-10-18T17:48:00+02:00",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "9H-QDM",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR2075-202610182150": {
    "key": "arr-FR2075-202610182150",
@@ -374,6 +378,6 @@
  },
  "date": "2026-10-18",
  "board_posted": true,
- "last_call": "2026-10-18T15:22:01.286094+02:00",
- "api_calls_total": 14
+ "last_call": "2026-10-18T18:38:12.047772+02:00",
+ "api_calls_total": 15
 }
