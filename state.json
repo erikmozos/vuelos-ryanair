@@ -308,7 +308,8 @@
    "reg": "",
    "gate": "02",
    "posted": [
-    "delay"
+    "delay",
+    "expired"
    ]
   },
   "dep-FR2076-202610182225": {
@@ -318,13 +319,15 @@
    "place": "Nottingham",
    "place_iata": "EMA",
    "sched": "2026-10-18T22:25:00+02:00",
-   "revised": "2026-10-18T22:25:00+02:00",
+   "revised": "2026-10-18T23:30:00+02:00",
    "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
+   "status": "GateClosed",
+   "model": "Boeing 737 MAX 8",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "12",
+   "posted": [
+    "delay"
+   ]
   },
   "arr-FR622-202610181410": {
    "key": "arr-FR622-202610181410",
@@ -367,17 +370,19 @@
    "place": "Nottingham",
    "place_iata": "EMA",
    "sched": "2026-10-18T21:50:00+02:00",
-   "revised": "2026-10-18T21:50:00+02:00",
+   "revised": "2026-10-18T21:35:00+02:00",
    "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "status": "Arrived",
+   "model": "Boeing 737 MAX 8",
+   "reg": "EI-HEY",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   }
  },
  "date": "2026-10-18",
  "board_posted": true,
- "last_call": "2026-10-18T18:38:12.047772+02:00",
- "api_calls_total": 15
+ "last_call": "2026-10-18T23:17:56.643556+02:00",
+ "api_calls_total": 16
 }
