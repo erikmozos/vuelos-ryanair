@@ -222,7 +222,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "02",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR6881-202610180705": {
    "key": "arr-FR6881-202610180705",
@@ -248,13 +250,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-18T11:35:00+02:00",
-   "revised": "2026-10-18T11:35:00+02:00",
+   "revised": "2026-10-18T11:24:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-EVM",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "dep-FR3057-202610181210": {
    "key": "dep-FR3057-202610181210",
@@ -263,13 +267,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-18T12:10:00+02:00",
-   "revised": "2026-10-18T12:10:00+02:00",
-   "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "",
-   "posted": []
+   "revised": "2026-10-18T12:44:00+02:00",
+   "runway": "2026-10-18T12:52:00+02:00",
+   "status": "Departed",
+   "model": "Boeing 737",
+   "reg": "EI-EVM",
+   "gate": "02",
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR621-202610181445": {
    "key": "dep-FR621-202610181445",
@@ -278,13 +284,15 @@
    "place": "London",
    "place_iata": "STN",
    "sched": "2026-10-18T14:45:00+02:00",
-   "revised": "2026-10-18T14:45:00+02:00",
+   "revised": "2026-10-18T14:44:00+02:00",
    "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
+   "status": "Departed",
+   "model": "Boeing 737 MAX 8",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "12",
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR8010-202610181800": {
    "key": "dep-FR8010-202610181800",
@@ -323,13 +331,15 @@
    "place": "London",
    "place_iata": "STN",
    "sched": "2026-10-18T14:10:00+02:00",
-   "revised": "2026-10-18T14:10:00+02:00",
+   "revised": "2026-10-18T14:00:00+02:00",
    "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "status": "Arrived",
+   "model": "Boeing 737 MAX 8",
+   "reg": "EI-IKC",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR8009-202610181725": {
    "key": "arr-FR8009-202610181725",
@@ -364,6 +374,6 @@
  },
  "date": "2026-10-18",
  "board_posted": true,
- "last_call": "2026-10-18T06:53:25.937064+02:00",
- "api_calls_total": 13
+ "last_call": "2026-10-18T15:22:01.286094+02:00",
+ "api_calls_total": 14
 }
