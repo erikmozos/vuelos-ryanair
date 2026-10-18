@@ -237,7 +237,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "EI-IJI",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR3056-202610181135": {
    "key": "arr-FR3056-202610181135",
