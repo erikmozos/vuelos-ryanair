@@ -219,7 +219,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "dep-FR7443-202610191730": {
    "key": "dep-FR7443-202610191730",
@@ -234,7 +236,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "dep-FR4709-202610191945": {
    "key": "dep-FR4709-202610191945",
@@ -243,13 +247,15 @@
    "place": "Brussels",
    "place_iata": "CRL",
    "sched": "2026-10-19T19:45:00+02:00",
-   "revised": "2026-10-19T19:45:00+02:00",
-   "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "",
-   "posted": []
+   "revised": "2026-10-19T20:48:00+02:00",
+   "runway": "2026-10-19T20:58:00+02:00",
+   "status": "Departed",
+   "model": "Boeing 737-800",
+   "reg": "9H-QDX",
+   "gate": "09",
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR4295-202610192050": {
    "key": "dep-FR4295-202610192050",
@@ -258,13 +264,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-19T20:50:00+02:00",
-   "revised": "2026-10-19T20:50:00+02:00",
+   "revised": "2026-10-19T22:25:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "09",
+   "posted": [
+    "delay"
+   ]
   },
   "dep-FR7510-202610192315": {
    "key": "dep-FR7510-202610192315",
@@ -294,7 +302,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR7442-202610191655": {
    "key": "arr-FR7442-202610191655",
@@ -309,7 +319,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR4708-202610191910": {
    "key": "arr-FR4708-202610191910",
@@ -318,13 +330,15 @@
    "place": "Brussels",
    "place_iata": "CRL",
    "sched": "2026-10-19T19:10:00+02:00",
-   "revised": "2026-10-19T19:10:00+02:00",
+   "revised": "2026-10-19T19:42:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "9H-QDX",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR4294-202610192015": {
    "key": "arr-FR4294-202610192015",
@@ -333,13 +347,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-19T20:15:00+02:00",
-   "revised": "2026-10-19T20:15:00+02:00",
+   "revised": "2026-10-19T21:41:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Approaching",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-EML",
    "gate": "",
-   "posted": []
+   "posted": [
+    "delay"
+   ]
   },
   "arr-FR7509-202610192240": {
    "key": "arr-FR7509-202610192240",
@@ -359,6 +375,6 @@
  },
  "date": "2026-10-19",
  "board_posted": true,
- "last_call": "2026-10-19T08:36:29.612789+02:00",
- "api_calls_total": 19
+ "last_call": "2026-10-19T21:39:02.960962+02:00",
+ "api_calls_total": 20
 }
