@@ -1,211 +1,5 @@
 {
  "flights": {
-  "dep-FR621-202610181445": {
-   "key": "dep-FR621-202610181445",
-   "kind": "dep",
-   "number": "FR621",
-   "place": "London",
-   "place_iata": "STN",
-   "sched": "2026-10-18T14:45:00+02:00",
-   "revised": "2026-10-18T14:44:00+02:00",
-   "runway": null,
-   "status": "Departed",
-   "model": "Boeing 737 MAX 8",
-   "reg": "EI-IKC",
-   "gate": "12",
-   "posted": [
-    "dep"
-   ]
-  },
-  "dep-FR8010-202610181800": {
-   "key": "dep-FR8010-202610181800",
-   "kind": "dep",
-   "number": "FR8010",
-   "place": "Barcelona",
-   "place_iata": "BCN",
-   "sched": "2026-10-18T18:00:00+02:00",
-   "revised": "2026-10-18T18:33:00+02:00",
-   "runway": null,
-   "status": "Boarding",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "02",
-   "posted": [
-    "delay",
-    "expired"
-   ]
-  },
-  "dep-FR2076-202610182225": {
-   "key": "dep-FR2076-202610182225",
-   "kind": "dep",
-   "number": "FR2076",
-   "place": "Nottingham",
-   "place_iata": "EMA",
-   "sched": "2026-10-18T22:25:00+02:00",
-   "revised": "2026-10-18T23:48:00+02:00",
-   "runway": null,
-   "status": "Departed",
-   "model": "Boeing 737 MAX 8",
-   "reg": "",
-   "gate": "12",
-   "posted": [
-    "delay",
-    "dep"
-   ]
-  },
-  "arr-FR622-202610181410": {
-   "key": "arr-FR622-202610181410",
-   "kind": "arr",
-   "number": "FR622",
-   "place": "London",
-   "place_iata": "STN",
-   "sched": "2026-10-18T14:10:00+02:00",
-   "revised": "2026-10-18T14:00:00+02:00",
-   "runway": null,
-   "status": "Arrived",
-   "model": "Boeing 737 MAX 8",
-   "reg": "EI-IKC",
-   "gate": "",
-   "posted": [
-    "arr"
-   ]
-  },
-  "arr-FR8009-202610181725": {
-   "key": "arr-FR8009-202610181725",
-   "kind": "arr",
-   "number": "FR8009",
-   "place": "Barcelona",
-   "place_iata": "BCN",
-   "sched": "2026-10-18T17:25:00+02:00",
-   "revised": "2026-10-18T17:53:00+02:00",
-   "runway": "2026-10-18T17:48:00+02:00",
-   "status": "Arrived",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "9H-QDM",
-   "gate": "",
-   "posted": [
-    "arr"
-   ]
-  },
-  "arr-FR2075-202610182150": {
-   "key": "arr-FR2075-202610182150",
-   "kind": "arr",
-   "number": "FR2075",
-   "place": "Nottingham",
-   "place_iata": "EMA",
-   "sched": "2026-10-18T21:50:00+02:00",
-   "revised": "2026-10-18T21:35:00+02:00",
-   "runway": null,
-   "status": "Arrived",
-   "model": "Boeing 737 MAX 8",
-   "reg": "EI-HEY",
-   "gate": "",
-   "posted": [
-    "arr"
-   ]
-  },
-  "dep-FR6882-202610190735": {
-   "key": "dep-FR6882-202610190735",
-   "kind": "dep",
-   "number": "FR6882",
-   "place": "Barcelona",
-   "place_iata": "BCN",
-   "sched": "2026-10-19T07:35:00+02:00",
-   "revised": "2026-10-19T07:39:00+02:00",
-   "runway": "2026-10-19T07:50:00+02:00",
-   "status": "Departed",
-   "model": "Boeing 737-800",
-   "reg": "EI-EFD",
-   "gate": "02",
-   "posted": [
-    "dep"
-   ]
-  },
-  "dep-FR7598-202610190745": {
-   "key": "dep-FR7598-202610190745",
-   "kind": "dep",
-   "number": "FR7598",
-   "place": "Toulouse-Blagnac",
-   "place_iata": "TLS",
-   "sched": "2026-10-19T07:45:00+02:00",
-   "revised": "2026-10-19T07:48:00+02:00",
-   "runway": "2026-10-19T08:00:00+02:00",
-   "status": "Departed",
-   "model": "Boeing 737-800",
-   "reg": "EI-DWK",
-   "gate": "09",
-   "posted": [
-    "dep"
-   ]
-  },
-  "dep-FR3057-202610190900": {
-   "key": "dep-FR3057-202610190900",
-   "kind": "dep",
-   "number": "FR3057",
-   "place": "Madrid",
-   "place_iata": "MAD",
-   "sched": "2026-10-19T09:00:00+02:00",
-   "revised": "2026-10-19T09:00:00+02:00",
-   "runway": null,
-   "status": "Boarding",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "02",
-   "posted": [
-    "expired"
-   ]
-  },
-  "arr-FR6881-202610190700": {
-   "key": "arr-FR6881-202610190700",
-   "kind": "arr",
-   "number": "FR6881",
-   "place": "Barcelona",
-   "place_iata": "BCN",
-   "sched": "2026-10-19T07:00:00+02:00",
-   "revised": "2026-10-19T07:06:00+02:00",
-   "runway": null,
-   "status": "Arrived",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "EI-EFD",
-   "gate": "",
-   "posted": [
-    "arr"
-   ]
-  },
-  "arr-FR7597-202610190710": {
-   "key": "arr-FR7597-202610190710",
-   "kind": "arr",
-   "number": "FR7597",
-   "place": "Toulouse-Blagnac",
-   "place_iata": "TLS",
-   "sched": "2026-10-19T07:10:00+02:00",
-   "revised": "2026-10-19T07:14:00+02:00",
-   "runway": null,
-   "status": "Arrived",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "EI-DWK",
-   "gate": "",
-   "posted": [
-    "arr"
-   ]
-  },
-  "arr-FR3056-202610190820": {
-   "key": "arr-FR3056-202610190820",
-   "kind": "arr",
-   "number": "FR3056",
-   "place": "Madrid",
-   "place_iata": "MAD",
-   "sched": "2026-10-19T08:20:00+02:00",
-   "revised": "2026-10-19T08:09:00+02:00",
-   "runway": null,
-   "status": "Arrived",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "",
-   "posted": [
-    "arr"
-   ]
-  },
   "dep-FR1177-202610191325": {
    "key": "dep-FR1177-202610191325",
    "kind": "dep",
@@ -264,14 +58,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-19T20:50:00+02:00",
-   "revised": "2026-10-19T22:25:00+02:00",
-   "runway": null,
-   "status": "Expected",
+   "revised": "2026-10-19T22:21:00+02:00",
+   "runway": "2026-10-19T22:31:00+02:00",
+   "status": "Departed",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-EML",
    "gate": "09",
    "posted": [
-    "delay"
+    "delay",
+    "dep"
    ]
   },
   "dep-FR7510-202610192315": {
@@ -281,29 +76,14 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-19T23:15:00+02:00",
-   "revised": "2026-10-19T23:15:00+02:00",
+   "revised": "2026-10-20T00:41:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Departed",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
-   "posted": []
-  },
-  "arr-FR1176-202610191250": {
-   "key": "arr-FR1176-202610191250",
-   "kind": "arr",
-   "number": "FR1176",
-   "place": "Bergamo",
-   "place_iata": "BGY",
-   "sched": "2026-10-19T12:50:00+02:00",
-   "revised": "2026-10-19T12:43:00+02:00",
-   "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "",
+   "gate": "09",
    "posted": [
-    "expired"
+    "dep"
    ]
   },
   "arr-FR7442-202610191655": {
@@ -347,14 +127,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-19T20:15:00+02:00",
-   "revised": "2026-10-19T21:41:00+02:00",
+   "revised": "2026-10-19T21:39:00+02:00",
    "runway": null,
-   "status": "Approaching",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
    "reg": "EI-EML",
    "gate": "",
    "posted": [
-    "delay"
+    "delay",
+    "arr"
    ]
   },
   "arr-FR7509-202610192240": {
@@ -364,17 +145,19 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-19T22:40:00+02:00",
-   "revised": "2026-10-19T22:40:00+02:00",
-   "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "revised": "2026-10-20T00:17:00+02:00",
+   "runway": "2026-10-20T00:11:00+02:00",
+   "status": "Arrived",
+   "model": "Boeing 737-800",
+   "reg": "EI-DLV",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   }
  },
- "date": "2026-10-19",
- "board_posted": true,
- "last_call": "2026-10-19T21:39:02.960962+02:00",
- "api_calls_total": 20
+ "date": "2026-10-20",
+ "board_posted": false,
+ "last_call": "2026-10-20T01:05:46.584198+02:00",
+ "api_calls_total": 21
 }
