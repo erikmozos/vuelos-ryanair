@@ -186,7 +186,8 @@
    "reg": "",
    "gate": "09",
    "posted": [
-    "delay"
+    "delay",
+    "expired"
    ]
   },
   "arr-FR3056-202610200750": {
@@ -220,7 +221,8 @@
    "reg": "",
    "gate": "",
    "posted": [
-    "delay"
+    "delay",
+    "expired"
    ]
   },
   "dep-FR7402-202610201350": {
@@ -230,13 +232,15 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-20T13:50:00+02:00",
-   "revised": "2026-10-20T13:55:00+02:00",
+   "revised": "2026-10-20T13:51:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Departed",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "02",
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR3059-202610201920": {
    "key": "dep-FR3059-202610201920",
@@ -305,13 +309,15 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-20T13:15:00+02:00",
-   "revised": "2026-10-20T13:00:00+02:00",
-   "runway": null,
-   "status": "Expected",
+   "revised": "2026-10-20T13:05:00+02:00",
+   "runway": "2026-10-20T12:52:00+02:00",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-EKD",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR3058-202610201845": {
    "key": "arr-FR3058-202610201845",
@@ -376,6 +382,6 @@
  },
  "date": "2026-10-20",
  "board_posted": true,
- "last_call": "2026-10-20T08:42:09.498730+02:00",
- "api_calls_total": 23
+ "last_call": "2026-10-20T14:15:12.702117+02:00",
+ "api_calls_total": 24
 }
