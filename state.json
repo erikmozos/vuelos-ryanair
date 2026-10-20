@@ -249,12 +249,12 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-20T19:20:00+02:00",
-   "revised": "2026-10-20T19:20:00+02:00",
+   "revised": "2026-10-20T19:29:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Boarding",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
+   "gate": "09",
    "posted": []
   },
   "dep-FR3837-202610202135": {
@@ -326,13 +326,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-20T18:45:00+02:00",
-   "revised": "2026-10-20T18:45:00+02:00",
+   "revised": "2026-10-20T18:49:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR3836-202610202100": {
    "key": "arr-FR3836-202610202100",
@@ -341,7 +343,7 @@
    "place": "Manchester",
    "place_iata": "MAN",
    "sched": "2026-10-20T21:00:00+02:00",
-   "revised": "2026-10-20T21:00:00+02:00",
+   "revised": "2026-10-20T20:44:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
@@ -382,6 +384,6 @@
  },
  "date": "2026-10-20",
  "board_posted": true,
- "last_call": "2026-10-20T14:15:12.702117+02:00",
- "api_calls_total": 24
+ "last_call": "2026-10-20T19:16:29.277109+02:00",
+ "api_calls_total": 25
 }
