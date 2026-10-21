@@ -254,7 +254,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "dep-FR3781-202610212245": {
    "key": "dep-FR3781-202610212245",
@@ -263,12 +265,12 @@
    "place": "Dublin",
    "place_iata": "DUB",
    "sched": "2026-10-21T22:45:00+02:00",
-   "revised": "2026-10-21T22:45:00+02:00",
+   "revised": "2026-10-21T22:51:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Boarding",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
+   "gate": "12",
    "posted": []
   },
   "dep-FR3059-202610212325": {
@@ -278,13 +280,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-21T23:25:00+02:00",
-   "revised": "2026-10-21T23:25:00+02:00",
+   "revised": "2026-10-22T00:05:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "02",
+   "posted": [
+    "delay"
+   ]
   },
   "arr-FR622-202610211410": {
    "key": "arr-FR622-202610211410",
@@ -316,7 +320,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR3780-202610212210": {
    "key": "arr-FR3780-202610212210",
@@ -325,13 +331,15 @@
    "place": "Dublin",
    "place_iata": "DUB",
    "sched": "2026-10-21T22:10:00+02:00",
-   "revised": "2026-10-21T22:10:00+02:00",
-   "runway": null,
-   "status": "Expected",
+   "revised": "2026-10-21T22:11:00+02:00",
+   "runway": "2026-10-21T22:05:00+02:00",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-DPR",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR3058-202610212250": {
    "key": "arr-FR3058-202610212250",
@@ -340,17 +348,19 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-21T22:50:00+02:00",
-   "revised": "2026-10-21T22:50:00+02:00",
+   "revised": "2026-10-21T23:21:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Delayed",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "delay"
+   ]
   }
  },
  "date": "2026-10-21",
  "board_posted": true,
- "last_call": "2026-10-21T14:25:58.304527+02:00",
- "api_calls_total": 30
+ "last_call": "2026-10-21T22:51:28.991500+02:00",
+ "api_calls_total": 31
 }
