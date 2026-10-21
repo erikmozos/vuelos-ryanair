@@ -186,7 +186,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "04,03",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR6881-202610210705": {
    "key": "arr-FR6881-202610210705",
@@ -229,12 +231,12 @@
    "place": "London",
    "place_iata": "STN",
    "sched": "2026-10-21T14:45:00+02:00",
-   "revised": "2026-10-21T14:45:00+02:00",
+   "revised": "2026-10-21T14:55:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
+   "gate": "12",
    "posted": []
   },
   "dep-FR7510-202610211725": {
@@ -289,11 +291,11 @@
    "place": "London",
    "place_iata": "STN",
    "sched": "2026-10-21T14:10:00+02:00",
-   "revised": "2026-10-21T14:00:00+02:00",
+   "revised": "2026-10-21T14:21:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-DHA",
    "gate": "",
    "posted": []
   },
@@ -345,6 +347,6 @@
  },
  "date": "2026-10-21",
  "board_posted": true,
- "last_call": "2026-10-21T08:39:32.087027+02:00",
- "api_calls_total": 29
+ "last_call": "2026-10-21T14:25:58.304527+02:00",
+ "api_calls_total": 30
 }
