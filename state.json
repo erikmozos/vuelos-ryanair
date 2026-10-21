@@ -237,7 +237,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "12",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "dep-FR7510-202610211725": {
    "key": "dep-FR7510-202610211725",
@@ -297,7 +299,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "EI-DHA",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR7509-202610211650": {
    "key": "arr-FR7509-202610211650",
