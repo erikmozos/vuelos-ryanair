@@ -185,7 +185,9 @@
    "model": "Boeing 737 MAX 8",
    "reg": "",
    "gate": "12",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR7442-202610220705": {
    "key": "arr-FR7442-202610220705",
@@ -234,7 +236,9 @@
    "model": "Boeing 737-800",
    "reg": "EI-HGR",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR3056-202610221135": {
    "key": "arr-FR3056-202610221135",
@@ -243,13 +247,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-22T11:35:00+02:00",
-   "revised": "2026-10-22T11:24:00+02:00",
+   "revised": "2026-10-22T11:32:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "9H-QCB",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "dep-FR3057-202610221210": {
    "key": "dep-FR3057-202610221210",
@@ -260,11 +266,13 @@
    "sched": "2026-10-22T12:10:00+02:00",
    "revised": "2026-10-22T12:10:00+02:00",
    "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "",
-   "posted": []
+   "status": "Departed",
+   "model": "Boeing 737-800",
+   "reg": "9H-QCB",
+   "gate": "06",
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR6882-202610221350": {
    "key": "dep-FR6882-202610221350",
@@ -273,13 +281,15 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-22T13:50:00+02:00",
-   "revised": "2026-10-22T13:50:00+02:00",
-   "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "",
-   "posted": []
+   "revised": "2026-10-22T13:42:00+02:00",
+   "runway": "2026-10-22T13:53:00+02:00",
+   "status": "Departed",
+   "model": "Boeing 737-800",
+   "reg": "EI-DWO",
+   "gate": "02",
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR4295-202610222105": {
    "key": "dep-FR4295-202610222105",
@@ -318,13 +328,15 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-22T13:00:00+02:00",
-   "revised": "2026-10-22T12:49:00+02:00",
+   "revised": "2026-10-22T12:58:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-DWO",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR4294-202610222025": {
    "key": "arr-FR4294-202610222025",
@@ -359,6 +371,6 @@
  },
  "date": "2026-10-22",
  "board_posted": true,
- "last_call": "2026-10-22T09:19:12.978140+02:00",
- "api_calls_total": 34
+ "last_call": "2026-10-22T15:02:38.946132+02:00",
+ "api_calls_total": 35
 }
