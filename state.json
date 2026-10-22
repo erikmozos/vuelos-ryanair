@@ -298,13 +298,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-22T21:05:00+02:00",
-   "revised": "2026-10-22T21:05:00+02:00",
+   "revised": "2026-10-22T21:34:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Departed",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "",
-   "posted": []
+   "reg": "EI-DCN",
+   "gate": "02",
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR7510-202610222330": {
    "key": "dep-FR7510-202610222330",
@@ -313,12 +315,12 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-22T23:30:00+02:00",
-   "revised": "2026-10-22T23:30:00+02:00",
+   "revised": "2026-10-22T23:46:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Boarding",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
+   "gate": "02",
    "posted": []
   },
   "arr-FR6881-202610221300": {
@@ -345,13 +347,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-22T20:25:00+02:00",
-   "revised": "2026-10-22T20:25:00+02:00",
+   "revised": "2026-10-22T20:59:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-DCN",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR7509-202610222255": {
    "key": "arr-FR7509-202610222255",
@@ -362,15 +366,17 @@
    "sched": "2026-10-22T22:55:00+02:00",
    "revised": "2026-10-22T22:55:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-DWM",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   }
  },
  "date": "2026-10-22",
  "board_posted": true,
- "last_call": "2026-10-22T15:02:38.946132+02:00",
- "api_calls_total": 35
+ "last_call": "2026-10-22T23:14:52.234605+02:00",
+ "api_calls_total": 36
 }
