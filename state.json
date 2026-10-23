@@ -200,7 +200,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "02",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "dep-FR1177-202610232120": {
    "key": "dep-FR1177-202610232120",
@@ -209,13 +211,15 @@
    "place": "Bergamo",
    "place_iata": "BGY",
    "sched": "2026-10-23T21:20:00+02:00",
-   "revised": "2026-10-23T21:20:00+02:00",
+   "revised": "2026-10-23T22:23:00+02:00",
    "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737 MAX 8",
-   "reg": "",
-   "gate": "",
-   "posted": []
+   "status": "Departed",
+   "model": "Boeing 737-800",
+   "reg": "9H-QCZ",
+   "gate": "03,04",
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR7402-202610232300": {
    "key": "dep-FR7402-202610232300",
@@ -224,13 +228,15 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-23T23:00:00+02:00",
-   "revised": "2026-10-23T23:05:00+02:00",
+   "revised": "2026-10-23T22:54:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Departed",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "02",
+   "posted": [
+    "dep"
+   ]
   },
   "dep-FR4295-202610232330": {
    "key": "dep-FR4295-202610232330",
@@ -241,10 +247,10 @@
    "sched": "2026-10-23T23:30:00+02:00",
    "revised": "2026-10-23T23:30:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "GateClosed",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
-   "gate": "",
+   "reg": "EI-DCN",
+   "gate": "12",
    "posted": []
   },
   "arr-FR4708-202610231400": {
@@ -277,7 +283,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR1176-202610232045": {
    "key": "arr-FR1176-202610232045",
@@ -286,13 +294,15 @@
    "place": "Bergamo",
    "place_iata": "BGY",
    "sched": "2026-10-23T20:45:00+02:00",
-   "revised": "2026-10-23T20:45:00+02:00",
+   "revised": "2026-10-23T21:19:00+02:00",
    "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737 MAX 8",
-   "reg": "",
+   "status": "Arrived",
+   "model": "Boeing 737-800 (winglets)",
+   "reg": "9H-QCZ",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR7401-202610232225": {
    "key": "arr-FR7401-202610232225",
@@ -301,13 +311,15 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-23T22:25:00+02:00",
-   "revised": "2026-10-23T22:25:00+02:00",
+   "revised": "2026-10-23T22:24:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-EFJ",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   },
   "arr-FR4294-202610232255": {
    "key": "arr-FR4294-202610232255",
@@ -316,17 +328,19 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-23T22:55:00+02:00",
-   "revised": "2026-10-23T22:55:00+02:00",
+   "revised": "2026-10-23T22:43:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "9H-QCB",
    "gate": "",
-   "posted": []
+   "posted": [
+    "arr"
+   ]
   }
  },
  "date": "2026-10-23",
  "board_posted": true,
- "last_call": "2026-10-23T16:22:37.570555+02:00",
- "api_calls_total": 39
+ "last_call": "2026-10-23T23:36:41.693358+02:00",
+ "api_calls_total": 40
 }
