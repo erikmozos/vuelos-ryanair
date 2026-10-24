@@ -234,7 +234,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "dep-FR3057-202610241210": {
    "key": "dep-FR3057-202610241210",
@@ -249,7 +251,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "dep-FR3059-202610241910": {
    "key": "dep-FR3059-202610241910",
@@ -258,13 +262,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-24T19:10:00+02:00",
-   "revised": "2026-10-24T19:10:00+02:00",
+   "revised": "2026-10-24T19:35:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "02",
+   "posted": [
+    "delay"
+   ]
   },
   "dep-FR3837-202610242100": {
    "key": "dep-FR3837-202610242100",
@@ -348,13 +354,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-24T18:35:00+02:00",
-   "revised": "2026-10-24T18:35:00+02:00",
+   "revised": "2026-10-24T19:00:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-DWK",
    "gate": "",
-   "posted": []
+   "posted": [
+    "delay"
+   ]
   },
   "arr-FR3836-202610242025": {
    "key": "arr-FR3836-202610242025",
@@ -378,7 +386,7 @@
    "place": "Toulouse-Blagnac",
    "place_iata": "TLS",
    "sched": "2026-10-24T20:35:00+02:00",
-   "revised": "2026-10-24T20:35:00+02:00",
+   "revised": "2026-10-24T20:28:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
@@ -393,7 +401,7 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-24T20:40:00+02:00",
-   "revised": "2026-10-24T20:40:00+02:00",
+   "revised": "2026-10-24T20:24:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
@@ -434,6 +442,6 @@
  },
  "date": "2026-10-24",
  "board_posted": true,
- "last_call": "2026-10-24T06:22:09.113223+02:00",
- "api_calls_total": 42
+ "last_call": "2026-10-24T18:36:55.039133+02:00",
+ "api_calls_total": 43
 }
