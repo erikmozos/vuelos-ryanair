@@ -262,14 +262,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-24T19:10:00+02:00",
-   "revised": "2026-10-24T19:35:00+02:00",
-   "runway": null,
-   "status": "Expected",
-   "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "revised": "2026-10-24T19:41:00+02:00",
+   "runway": "2026-10-24T19:53:00+02:00",
+   "status": "Departed",
+   "model": "Boeing 737-800",
+   "reg": "EI-DWK",
    "gate": "02",
    "posted": [
-    "delay"
+    "delay",
+    "dep"
    ]
   },
   "dep-FR3837-202610242100": {
@@ -279,13 +280,15 @@
    "place": "Manchester",
    "place_iata": "MAN",
    "sched": "2026-10-24T21:00:00+02:00",
-   "revised": "2026-10-24T21:00:00+02:00",
+   "revised": "2026-10-24T21:45:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737 MAX 8",
    "reg": "",
-   "gate": "",
-   "posted": []
+   "gate": "16",
+   "posted": [
+    "delay"
+   ]
   },
   "dep-FR7500-202610242115": {
    "key": "dep-FR7500-202610242115",
@@ -294,12 +297,12 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-24T21:15:00+02:00",
-   "revised": "2026-10-24T21:20:00+02:00",
+   "revised": "2026-10-24T21:15:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
+   "gate": "06",
    "posted": []
   },
   "dep-FR7598-202610242120": {
@@ -314,7 +317,7 @@
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
-   "gate": "",
+   "gate": "02",
    "posted": []
   },
   "dep-FR7510-202610242305": {
@@ -354,14 +357,15 @@
    "place": "Madrid",
    "place_iata": "MAD",
    "sched": "2026-10-24T18:35:00+02:00",
-   "revised": "2026-10-24T19:00:00+02:00",
+   "revised": "2026-10-24T18:59:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Arrived",
    "model": "Boeing 737-800 (winglets)",
    "reg": "EI-DWK",
    "gate": "",
    "posted": [
-    "delay"
+    "delay",
+    "arr"
    ]
   },
   "arr-FR3836-202610242025": {
@@ -371,13 +375,15 @@
    "place": "Manchester",
    "place_iata": "MAN",
    "sched": "2026-10-24T20:25:00+02:00",
-   "revised": "2026-10-24T20:25:00+02:00",
+   "revised": "2026-10-24T21:09:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Delayed",
    "model": "Boeing 737 MAX 8",
-   "reg": "",
+   "reg": "EI-ILO",
    "gate": "",
-   "posted": []
+   "posted": [
+    "delay"
+   ]
   },
   "arr-FR7597-202610242035": {
    "key": "arr-FR7597-202610242035",
@@ -386,11 +392,11 @@
    "place": "Toulouse-Blagnac",
    "place_iata": "TLS",
    "sched": "2026-10-24T20:35:00+02:00",
-   "revised": "2026-10-24T20:28:00+02:00",
+   "revised": "2026-10-24T20:38:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "9H-QCW",
    "gate": "",
    "posted": []
   },
@@ -401,11 +407,11 @@
    "place": "Valencia",
    "place_iata": "VLC",
    "sched": "2026-10-24T20:40:00+02:00",
-   "revised": "2026-10-24T20:24:00+02:00",
+   "revised": "2026-10-24T20:35:00+02:00",
    "runway": null,
-   "status": "Expected",
+   "status": "Approaching",
    "model": "Boeing 737-800 (winglets)",
-   "reg": "",
+   "reg": "EI-EFJ",
    "gate": "",
    "posted": []
   },
@@ -416,7 +422,7 @@
    "place": "Barcelona",
    "place_iata": "BCN",
    "sched": "2026-10-24T22:30:00+02:00",
-   "revised": "2026-10-24T22:30:00+02:00",
+   "revised": "2026-10-24T22:14:00+02:00",
    "runway": null,
    "status": "Expected",
    "model": "Boeing 737-800 (winglets)",
@@ -442,6 +448,6 @@
  },
  "date": "2026-10-24",
  "board_posted": true,
- "last_call": "2026-10-24T18:36:55.039133+02:00",
- "api_calls_total": 43
+ "last_call": "2026-10-24T20:59:14.603632+02:00",
+ "api_calls_total": 44
 }
