@@ -196,7 +196,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR6881-202610240715": {
    "key": "arr-FR6881-202610240715",
@@ -211,7 +213,9 @@
    "model": "Boeing 737-800 (winglets)",
    "reg": "",
    "gate": "",
-   "posted": []
+   "posted": [
+    "expired"
+   ]
   },
   "arr-FR3056-202610241135": {
    "key": "arr-FR3056-202610241135",
