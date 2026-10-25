@@ -99,7 +99,7 @@
    "runway": null,
    "status": "Departed",
    "model": "Boeing 737 MAX 8",
-   "reg": "",
+   "reg": "9H-VUT",
    "gate": "12",
    "posted": [
     "delay",
@@ -214,7 +214,7 @@
   }
  },
  "date": "2026-10-25",
- "board_posted": false,
- "last_call": "2026-10-25T01:34:52.837178+02:00",
- "api_calls_total": 46
+ "board_posted": true,
+ "last_call": "2026-10-25T07:47:48.488466+01:00",
+ "api_calls_total": 48
 }
