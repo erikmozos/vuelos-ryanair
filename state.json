@@ -1,7 +1,7 @@
 {
  "flights": {},
- "date": "2026-11-04",
- "board_posted": true,
+ "date": "2026-11-05",
+ "board_posted": false,
  "last_call": "2026-11-04T09:01:29.260900+01:00",
  "api_calls_total": 68
 }
